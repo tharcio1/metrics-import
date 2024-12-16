@@ -55,6 +55,7 @@ Este endpoint recebe um conjunto de parâmetros de agregação e retorna as mét
   "dateInitial": "2023-11-19",
   "finalDate": "2023-11-21"
 }
+```
 
 ## Parâmetros
 
@@ -74,7 +75,7 @@ Este endpoint recebe um conjunto de parâmetros de agregação e retorna as mét
     "date": "2023-11-22",
     "value": 97
   }
-
+ ```
 ### 2. **POST /metrics/report**
 
 #### Descrição:
@@ -90,7 +91,7 @@ Este endpoint gera um relatório Excel com as métricas agregadas conforme os pa
   "dateInitial": "2023-11-19",
   "finalDate": "2023-11-21"
 }
-
+```
 ## Parâmetros
 
 - **metricId**: ID da métrica a ser consultada.
