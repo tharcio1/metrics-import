@@ -52,8 +52,8 @@ Este endpoint recebe um conjunto de parâmetros de agregação e retorna as mét
 {
   "metricId": 71590,
   "aggType": "DAY",
-  "dateInitial": "2023-11-19",
-  "finalDate": "2023-11-21"
+  "dateInitial": "2023-11-21",
+  "finalDate": "2023-11-22"
 }
 ```
 
@@ -88,8 +88,8 @@ Este endpoint gera um relatório Excel com as métricas agregadas conforme os pa
 {
   "metricId": 71590,
   "aggType": "DAY",
-  "dateInitial": "2023-11-19",
-  "finalDate": "2023-11-21"
+  "dateInitial": "2023-11-21",
+  "finalDate": "2023-11-22"
 }
 ```
 ## Parâmetros
@@ -114,4 +114,7 @@ Este endpoint permite a importação de dados de métricas a partir de um arquiv
 - **Não é necessário fornecer parâmetros na requisição.**
 
 ## Resposta
-   - **Sucesso (200 OK)**: {"message": "Metrics imported successfully!"}
+   - **Sucesso (200 OK)**: 
+```json 
+{"message": "Metrics imported successfully!"}
+```
