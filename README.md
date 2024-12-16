@@ -32,7 +32,6 @@ Este projeto é um sistema de agregação de métricas e geração de relatório
     - **entities**: Contém as entidades do banco de dados.
     - **dto**: Contém os objetos de transferência de dados (DTOs).
     - **services**: Contém a lógica de negócios, incluindo a agregação de métricas e a geração de relatórios.
-- **tests**: Contém os testes unitários e de integração.
 - **.gitignore**: Arquivo de configuração para ignorar arquivos desnecessários no controle de versão, como `node_modules`, arquivos de log e arquivos temporários.
 
 # API de Métricas
